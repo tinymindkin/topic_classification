@@ -2,6 +2,10 @@
 
 通过bert模型进行embedding，然后将embeding的到的vectors放到bertopic的fit_transfomer中进行训练，提取关键词，并根据词向量聚类分出多类别。
 
+bert模型可自行在huggingface上下载<bert-base-uncased>
+
+https://huggingface.co/google-bert/bert-base-uncased
+
 ![](./assets/t-SNE Visualization.png)
 
 ![](./assets/3d_pca_visualization.png)
